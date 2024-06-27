@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Load Google Maps API
     const script = document.createElement('script');
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAEEX0nG63MTu_Z940PYIpE97YwEI6FWQU&callback=initMap`;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=&callback=initMap`;
     script.async = true;
     script.defer = true;
     document.head.appendChild(script);
